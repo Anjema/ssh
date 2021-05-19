@@ -162,6 +162,8 @@ body {
           transform: rotate(180deg);
   font-size: 13px;
   margin-right: 5px;
+  position: relative;
+  bottom: 3px;
 }
 
 .aside-link li:last-child {
@@ -272,6 +274,8 @@ footer {
           transform: rotate(180deg);
   font-size: 13px;
   margin-right: 4px;
+  position: relative;
+  bottom: 2px;
 }
 
 .jh {
