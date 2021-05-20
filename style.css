@@ -38,11 +38,6 @@ body {
   border-radius: 5px;
 }
 
-.subscribe {
-  text-align: center;
-  margin: 75px 0 80px 0;
-}
-
 .form {
   max-width: 700px;
   margin-right: auto;
@@ -85,7 +80,7 @@ body {
 
 .report-card {
   background-color: #fff;
-  padding: 20px 20px 20px 30px;
+  padding: 35px 20px 20px 30px;
   border-radius: 7px;
 }
 
@@ -319,5 +314,28 @@ footer {
 
 .ku {
   color: #91ac36 !important;
+}
+
+.banner {
+  background: url(./img/about-us.png) bottom left no-repeat;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.subscribe {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.hul {
+  position: relative;
+  left: -32px;
 }
 /*# sourceMappingURL=style.css.map */
